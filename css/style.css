@@ -151,7 +151,15 @@ canvas{
 .link1:hover {
   color: #fc7a00;
 }
+.tryhackme_badge {
+  position: absolute;
+  top: -90px;
+  right: -400px;
+  height: 5000px;
+  
+}
 
+}
 @media screen and (max-width: 785px) {
   .header1 {
     font-size: 8vw;
