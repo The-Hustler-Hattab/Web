@@ -8,7 +8,7 @@ Welcome to my personal website repository! This website showcases my portfolio, 
 
 
 ## About
-This website serves as my personal space on the internet, where I share my experiences, projects, and ideas. You can learn more about me and my background here.
+This website serves as my personal space on the internet, where I share my experiences, and projects. You can learn more about me and my background here.
 
 
 
