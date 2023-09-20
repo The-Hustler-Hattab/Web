@@ -10,7 +10,7 @@
 <body>
 
 <!-- Navigation Bar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary  fixed-top">
     <div class="container">
         <a class="navbar-brand" href="./index.html">Home</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -20,13 +20,18 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="./project.html">SMTP-Form</a>
+                    <a class="nav-link" href="./project_budget.html">Budget Tracking</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="./project_SMTP.html">SMTP-Form</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
-
+<hr>
+<hr>
+<hr>
 <!-- Jumbotron -->
 <div class="jumbotron text-center bg-light">
     <h1 class="display-4">SMTP Form</h1>
@@ -38,16 +43,21 @@
     <p></p>
 </div>
     <div class="container mt-4">
-        <div class="row">
-                <div class="col-md-6 offset-md-3">
-                <p>
+                <!-- <div class="container mt-5"> -->
+                <p class="lead">
                     This is a simple web application project built with Spring Boot 3.1.3, Thymeleaf, and a MySQL database. It allows users to send emails via a web form. It provides a
                     simple and user-friendly interface for sending emails to recipients.
                 </p>
-                <p>
-                    Authentication in this project is powered by GitHub OAuth. Users can log in with their GitHub accounts to access the email sending functionality.
-                    
-                </p>
+                <h2>Key Components:</h2>
+                <ul>
+                    <li>Monolothic: Java Spring & Thymeleaf</li>
+                    <li>Authentication: Github Oauth</li>
+                    <li>Database: MySQL</li>
+
+                </ul>
+                <h2>Project Overview:</h2>
+                <p>Authentication in this project is powered by GitHub OAuth. Users can log in with their GitHub accounts to access the email sending functionality.</p>
+                
                 <p>
                     The project's code has been regularly scanned for vulnerabilities using automated tools like github codeQl.
                 </p>
@@ -60,15 +70,14 @@
                 </p>
 
                 <div class="text-center">
-                    <a href="https://github.com/The-Hustler-Hattab/Spring_SMTP_REST"  class="btn btn-dark btn-lg mr-3">
+                    <a href="https://github.com/The-Hustler-Hattab/Spring_SMTP_REST" target="_blank"  class="btn btn-dark btn-lg mr-3">
                             GitHub Project
                     </a>
-                    <a href="https://project-smtp.mtattab.com/"  class="btn btn-primary btn-lg mr-3">
+                    <a href="https://project-smtp.mtattab.com" target="_blank" class="btn btn-primary btn-lg mr-3">
                             SMTP Form
                     </a>
                 <div>
             </div>
-        </div>
     <hr>
 
 <!-- Bootstrap JS and Popper.js (for Bootstrap functionality) -->
