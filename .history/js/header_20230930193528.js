@@ -1,1 +1,0 @@
-class ProjectHeader extends HTML

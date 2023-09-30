@@ -1,5 +1,0 @@
-class ProjectHeader extends HTMLElement {
-
-
-    
-}
