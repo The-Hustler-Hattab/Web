@@ -11,10 +11,13 @@ class ProjectHeader extends HTMLElement {
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link ${isActive('./project_budget.html')}" href="./project_budget.html">Budget Tracking</a>
+                                <a class="nav-link ${isActive('/project_budget.html')}" href="./project_budget.html">Budget Tracking</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link ${isActive('./project_SMTP.html')}" href="./project_SMTP.html">SMTP Form</a>
+                                <a class="nav-link ${isActive('/project_SMTP.html')}" href="./project_SMTP.html">SMTP Form</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ${isActive('/project_phishing.html')}" href="./project_phishing.html">Phshing</a>
                             </li>
                         </ul>
                     </div>
@@ -34,7 +37,7 @@ function isActive(href) {
     const currentURL = window.location.href;
     
     // Compare the current URL with the href
-    if (currentURL.endsWith(href)) {
+    if (currentURL.includes(href)) {
         return 'active';
     } else {
         return '';
