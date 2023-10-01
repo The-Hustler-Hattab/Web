@@ -1,6 +1,6 @@
 # My Personal Website
 
-Welcome to my personal website repository! This website showcases my portfolio, blog, and other projects.
+Welcome to my personal website repository! This website showcases my portfolio, and other projects.
 
 ## Table of Contents
 - [About](#about)
