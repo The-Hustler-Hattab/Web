@@ -14,6 +14,9 @@ class ProjectHeader extends HTMLElement {
                                 <a class="nav-link ${isActive('/project_C2.html')}" href="./project_C2.html">Command & Control</a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link ${isActive('/project_bad_USB.html')}" href="./project_bad_USB.html">Bad USB</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link ${isActive('/project_budget.html')}" href="./project_budget.html">Budget Tracking</a>
                             </li>
                             <li class="nav-item">
