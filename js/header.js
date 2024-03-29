@@ -25,6 +25,9 @@ class ProjectHeader extends HTMLElement {
                             <li class="nav-item">
                                 <a class="nav-link ${isActive('/project_SMTP.html')}" href="./project_SMTP.html">SMTP Form</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link ${isActive('/project_email-spammer.html')}" href="./project_email-spammer.html">Email Spammer</a>
+                            </li>
        
                         </ul>
                     </div>
